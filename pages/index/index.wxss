@@ -1,0 +1,47 @@
+/**index.wxss**/
+
+.slider image,swiper{
+  width: 750rpx;
+  height: 400rpx;
+  vertical-align: middle;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item{
+  /* width: 33.3333%; */
+  flex: 0 0 33.33%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #eee;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30rpx 0; */
+  color: #242424;
+  font-size: 12px;
+}
+.item image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+.line{
+  height: 10rpx;
+  background-color: #f0f0f0;
+}
+.recommend{
+   display: flex; 
+   padding-left: 30rpx;
+   padding-top: 30rpx;
+}
+.recommend navigator{
+  width: 50%;
+  height: 200rpx;
+}
+.recommend navigator image{
+   width: 90%;
+  height: 90%; 
+  flex: 1;
+}

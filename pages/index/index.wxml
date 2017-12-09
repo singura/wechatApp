@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class='slider'>
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+	<swiper-item wx:for="{{sliderlist}}" wx:key="id" wx:if="{{item.image}}">
+      	<image src="{{item.image}}" width="375" height="200"/>
+    </swiper-item>
+</swiper>
+</view>
+<view class='nav'>
+  <navigator url='/pages/list/list?id={{item.id}}&name={{item.name}}' class='item bd-r' wx:for="{{category}}" wx:key="id" wx:if="{{item.name}}">
+    <image src='{{item.icon}}'></image>
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+<view class='line'></view>
+<view class='recommend'>
+  <navigator>
+    <image src='/assets/images/link-01.png'></image>
+  </navigator>
+  <navigator>
+    <image src='/assets/images/link-02.png'></image>
+  </navigator>
+</view>

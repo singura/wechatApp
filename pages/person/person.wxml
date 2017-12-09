@@ -1,0 +1,31 @@
+<!--pages/person/person.wxml-->
+<view class='top'>
+ <image src='/assets/images/avatar.png'></image>
+</view>
+<view class='contant'>
+  <navigator>
+    <text class='arrow'>个人资料</text>
+  </navigator>
+  <navigator>
+    <text class='arrow'>我的优惠券</text>
+  </navigator>
+</view>
+<view class='contant'>
+  <navigator>
+    <text class='arrow'>常见问题</text>
+  </navigator>
+  <navigator>
+    <text class='arrow'>使用条款</text>
+  </navigator>
+  <navigator>
+    <text class='arrow'>隐私权政策</text>
+  </navigator>
+  <navigator>
+    <text class='arrow'>联系客服</text>
+  </navigator>
+</view>
+<view class='contant'>
+  <navigator>
+    <text class='arrow'>设置</text>
+  </navigator>
+</view>

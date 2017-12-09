@@ -1,0 +1,38 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.bd-r{
+  position: relative;
+}
+.bd-r:nth-child(3n)::after{
+  border-right-width: 0;
+}
+.bd-r::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  right: 0;
+  border-right: 1rpx solid #eee;
+}
+/*箭头  */
+.arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow::after{
+  content: "";
+  display: block;
+  width: 15rpx;
+  height: 15rpx;
+  border-right: 1px solid #999;
+  border-top: 1px solid #999;
+  transform: rotate(45deg);
+}

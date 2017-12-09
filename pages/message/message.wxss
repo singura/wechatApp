@@ -1,0 +1,40 @@
+/* pages/message/message.wxss */
+page{
+  background: #f0f0f0;
+}
+navigator{
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  border-radius: 20rpx;
+  margin: 40rpx;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+navigator image{
+  width: 100%;
+  height: 300rpx;
+  margin: 20rpx 0;
+}
+.desc{
+  border-bottom: 1px solid #ccc;
+}
+.title{
+  font-size: 40rpx;
+  color: #3e2b29;
+}
+.small_title{
+  color: #a89f98;
+  border-bottom: 1px solid #ccc;
+}
+text{
+  color: #333;
+  font-size: 32rpx;
+  height: 60rpx;
+}
+.bottom{
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  line-height: 62rpx;
+}

@@ -1,0 +1,10 @@
+<!--pages/message/message.wxml-->
+<view>
+  <navigator wx:for='{{messageList}}'>
+    <text class='title'>{{item.title}}</text>
+    <text class='small_title'>{{item.date}}</text>
+    <image src='{{item.image}}' mode='aspectFill'></image>
+    <text class='desc'>{{item.desc}}</text>
+    <text class='arrow'>Read All</text>
+  </navigator>
+</view>

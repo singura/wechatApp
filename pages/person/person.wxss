@@ -1,0 +1,29 @@
+/* pages/person/person.wxss */
+page{
+  background: #f0f0f0;
+}
+.top{
+  background: #3a4862;
+  display: flex;
+  justify-content: center;
+  height: 300rpx;
+  align-items: center;
+}
+.top image{
+  height: 150rpx;
+  width: 150rpx;
+  border: 8rpx solid #777f92;
+  border-radius: 50%;
+}
+.contant{
+  margin-top: 30rpx;
+  background: #fff;
+  font-size: 30rpx;
+}
+.contant navigator{
+  padding: 30rpx;
+  border-bottom: 1px solid #ddd;
+}
+.contant:last-of-type{
+  margin-bottom: 40rpx;
+}
